@@ -1,5 +1,19 @@
 # ChangeLog
 
+## [4.7.1] - 21-11-2021
+
+- feat: add `console.error` logging for errors thrown by provided app handler to help debugging.
+
+## [4.7.0] - 21-11-2021
+
+- feat: support Deno `1.16.2` and std `0.115.1` and other deps upgrades
+- fix: improved `Server` determination
+
+## [4.6.1] - 05-11-2021
+
+- [#36] fix: process FormData correctly (#37) @c0per
+- feat: Support Deno `1.15.3` and std `0.113.0` and other deps upgrades
+
 ## [4.6.0] - 04-10-2021
 
 - deps: bump deps and replace std@0.106 with http_legacy.ts (#34) 
